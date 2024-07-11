@@ -26,9 +26,9 @@ object Q1 {
     if (index != -1) {
       if (itemQuantities(index) >= quantity) {
         itemQuantities(index) -= quantity
-        println("Sold" +quantity +"of "+itemName+". Remaining quantity:" +itemQuantities(index))
+        println("Sold " +quantity +" of "+itemName+". Remaining quantity:" +itemQuantities(index))
       } else {
-        println("Not enough quantity of"+ itemName +"to sell.Available quantity:" +itemQuantities(index))
+        println("Not enough quantity of "+ itemName +" to sell.Available quantity:" +itemQuantities(index))
       }
     } else {
       println("Item "+itemName+" does not exist in the inventory.")

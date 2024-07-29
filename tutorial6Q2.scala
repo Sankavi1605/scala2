@@ -53,7 +53,7 @@ object StudentManager {
 
   }
 
-  // Function to print student record
+  // print student record
   def printStudentRecord(record: (String, Int, Int, Double, Char)): Unit = {
     val (name, marks, totalMarks, percentage, grade) = record
     println("Student Name:"+ name)
@@ -81,7 +81,6 @@ object StudentManager {
   }
 
   def main(args: Array[String]): Unit = {
-    // Retrieve and print student record
     val studentRecord = getStudentInfoWithRetry
     printStudentRecord(studentRecord)
   }

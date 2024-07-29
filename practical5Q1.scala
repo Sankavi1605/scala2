@@ -1,7 +1,7 @@
 import scala.io.StdIn.readLine
 
 object Q1 {
-    // Function to get the list of products from the user
+    //get the list of products from the user
     def getProductList(n: List[String] = List()): List[String] = {
         val word = readLine("Enter string or 'done' to stop adding list: ")
         word match {
@@ -10,7 +10,7 @@ object Q1 {
         }
     }
 
-    // Function to print the list of products with their indices
+    // print the list of products with their indices
     def printProductList(products: List[String]): Unit = {
         products.zipWithIndex.foreach { case (product, index) =>
             println(s"${index + 1}. $product")

@@ -18,8 +18,8 @@ object Fibonacci {
         }
 
         print("Enter the number of Fibonacci terms: ")
-        val numTerms = readInt()
-        println("The first " +numTerms+" terms of the Fibonacci series are:")
-        printFibonacciSeries(numTerms)
+        val num = readInt()
+        println("The first " +num+" terms of the Fibonacci series are:")
+        printFibonacciSeries(num)
     }
 }

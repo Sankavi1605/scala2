@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 object Q2{
 
 def calculateSquare(numbers:List[Int]):List[Int]={
@@ -10,3 +11,5 @@ def calculateSquare(numbers:List[Int]):List[Int]={
    
   }
 }
+=======
+>>>>>>> 9b6970f58a1d4da769f83584c83944e01c43510b

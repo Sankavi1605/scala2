@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 object Q1 {
 
     def isPrime(num: Int): Boolean = {
@@ -24,5 +22,4 @@ def filterPrime(numbers:List[Int]):List[Int]={
    
   }
 }
-=======
->>>>>>> 9b6970f58a1d4da769f83584c83944e01c43510b
+

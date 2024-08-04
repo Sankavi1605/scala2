@@ -1,14 +1,13 @@
-object Q2 {
-  // Define inventory maps
+object Q1 {
   val inventory1: Map[Int, (String, Int, Double)] = Map(
-    101 -> ("abc", 10, 19.99),
-    102 -> ("bcd", 5, 29.99),
-    103 -> ("pqr", 8, 15.99)
+    101 -> ("abc", 10, 19.56),
+    102 -> ("bcd", 5, 29.98),
+    103 -> ("pqr", 8, 15.4)
   )
 
   val inventory2: Map[Int, (String, Int, Double)] = Map(
-    102 -> ("bcd", 7, 25.99),
-    104 -> ("lmn", 3, 22.99)
+    102 -> ("bcd", 7, 25.67),
+    104 -> ("lmn", 3, 22.5)
   )
 
   def main(args: Array[String]): Unit = {
